@@ -1,5 +1,5 @@
 const ensureRequire = require('../ensure-require')
-const babelJest = require('babel-jest')
+const babelJest = require('babel-jest').default
 const {
   getBabelOptions,
   getTsJestConfig,
